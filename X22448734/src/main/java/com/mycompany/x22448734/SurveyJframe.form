@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="250" max="-2" attributes="0"/>
+              <Component id="SurveyTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LBLDemo" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="CBAgeGroup" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="CBHouseType" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="CBProvider" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="LBLBill" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="TFBill" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="CBHeatMeth" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="CBTransportaion" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="CBFuelType" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBLConsumptionHabbits1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBLvalidationResult" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="BTNSubmit" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BTNReset" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BTNClose" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="CBLocation" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LBLGovernmentIncentiveQ1" pref="318" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LBLFuturePlans" min="-2" max="-2" attributes="0"/>
+                          <Component id="CBInsulationType" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBLDemo1" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBLRenewableEnergyQ" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="LBLRenewableEnergyQ1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBLRenewableEnergyQ2" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="LBLGovernmentIncentiveQ" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="SurveyTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBLDemo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBLDemo1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CBAgeGroup" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CBInsulationType" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBLRenewableEnergyQ" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CBLocation" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="CBHouseType" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="LBLFuturePlans" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBLConsumptionHabbits1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="LBLRenewableEnergyQ1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LBLRenewableEnergyQ2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="13" max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LBLGovernmentIncentiveQ" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LBLGovernmentIncentiveQ1" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="CBProvider" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="LBLBill" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TFBill" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="CBHeatMeth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="CBTransportaion" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="CBFuelType" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="LBLvalidationResult" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="BTNSubmit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BTNReset" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BTNClose" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="SurveyTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vivaldi" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Survey"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLDemo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vivaldi" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Demographic"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBAgeGroup">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Age Group"/>
+            <StringItem index="1" value="18-25"/>
+            <StringItem index="2" value="25-36"/>
+            <StringItem index="3" value="36-50"/>
+            <StringItem index="4" value="50 +"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CBAgeGroupActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBHouseType">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Type of Residence"/>
+            <StringItem index="1" value="House"/>
+            <StringItem index="2" value="Apartment"/>
+            <StringItem index="3" value="Other"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLFuturePlans">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vivaldi" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Future Plans"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBProvider">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Electricity Provider"/>
+            <StringItem index="1" value="Bord G&#xe1;s Energy"/>
+            <StringItem index="2" value="Electric Ireland"/>
+            <StringItem index="3" value="PrePay Power"/>
+            <StringItem index="4" value="SSE Electricity"/>
+            <StringItem index="5" value="Energia"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLBill">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Monthy Electricity Bill"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFBill">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBHeatMeth">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Heating Method"/>
+            <StringItem index="1" value="Gas"/>
+            <StringItem index="2" value="Oil"/>
+            <StringItem index="3" value="Electric"/>
+            <StringItem index="4" value="Renewable"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBTransportaion">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Transportaion"/>
+            <StringItem index="1" value="Car"/>
+            <StringItem index="2" value="Bicycle"/>
+            <StringItem index="3" value="Motorbike"/>
+            <StringItem index="4" value="Public Transport"/>
+            <StringItem index="5" value="Walk"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBFuelType">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Transportaion Fuel Type"/>
+            <StringItem index="1" value="Petrol"/>
+            <StringItem index="2" value="Diesel"/>
+            <StringItem index="3" value="Electric"/>
+            <StringItem index="4" value="None"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLDemo1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vivaldi" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cost Savings measures"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBInsulationType">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Insulation Type"/>
+            <StringItem index="1" value="External Wall Insulation"/>
+            <StringItem index="2" value="Cavity Wall Insulation"/>
+            <StringItem index="3" value="Internal Wall insulation"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLRenewableEnergyQ">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Do you use any form of renewable energy?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLConsumptionHabbits1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vivaldi" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Consumption Habbits"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLRenewableEnergyQ1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Do you plan on Improving energy"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="TARenewableEnergyQ1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="LBLRenewableEnergyQ2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="efficiency in your home? How?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLGovernmentIncentiveQ">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Are you aware of any government "/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="TARenewableEnergyQ2">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="LBLGovernmentIncentiveQ1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="incentives to do so?"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="BTNSubmit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNSubmitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTNReset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNResetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTNClose">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Close"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNCloseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLvalidationResult">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vivaldi" size="18" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBLocation">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="33">
+            <StringItem index="0" value="County"/>
+            <StringItem index="1" value="Antrim"/>
+            <StringItem index="2" value="Armagh"/>
+            <StringItem index="3" value="Carlow"/>
+            <StringItem index="4" value="Cavan"/>
+            <StringItem index="5" value="Clare"/>
+            <StringItem index="6" value="Cork"/>
+            <StringItem index="7" value="Derry"/>
+            <StringItem index="8" value="Donegal"/>
+            <StringItem index="9" value="Down"/>
+            <StringItem index="10" value="Dublin"/>
+            <StringItem index="11" value="Fermanagh"/>
+            <StringItem index="12" value="Galway"/>
+            <StringItem index="13" value="Kerry"/>
+            <StringItem index="14" value="Kildare"/>
+            <StringItem index="15" value="Kilkenny"/>
+            <StringItem index="16" value="Laois"/>
+            <StringItem index="17" value="Leitrim"/>
+            <StringItem index="18" value="Limerick"/>
+            <StringItem index="19" value="Longford"/>
+            <StringItem index="20" value="Louth"/>
+            <StringItem index="21" value="Mayo"/>
+            <StringItem index="22" value="Meath"/>
+            <StringItem index="23" value="Monaghan"/>
+            <StringItem index="24" value="Offaly"/>
+            <StringItem index="25" value="Roscommon"/>
+            <StringItem index="26" value="Sligo"/>
+            <StringItem index="27" value="Tipperary"/>
+            <StringItem index="28" value="Tyrone"/>
+            <StringItem index="29" value="Waterford"/>
+            <StringItem index="30" value="Westmeath"/>
+            <StringItem index="31" value="Wexford"/>
+            <StringItem index="32" value="Wicklow"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CBLocationActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
